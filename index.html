@@ -24,34 +24,31 @@
   </head>
   <body>
     <div class="bg">
+      <div class="header d-flex justify-content-end small-text">
+        <a href="#nav-about">About</a>
+        <a href="#nav-projects">Projects</a>
+        <a href="#nav-skills">Skills</a>
+        <a href="#nav-contact">Contact me</a>
+      </div>
+      <div class="main-section row">
+        <div class="col-7">
+          <h1 class="beginning-text">
+            Hi there! My name is Kate Voitiuk and I'm a
+            <span class="pink-text">front-end developer</span> with a passion
+            for creating functional websites.
+          </h1>
+          <p class="sub-title">
+            If you're interested in working together or have any questions, feel
+            free to reach out to me.
+          </p>
+          <a href="#nav-contact" class="btn btn-primary info-button small-text">
+            Contact me
+          </a>
+        </div>
+        <div class="col thiner">}</div>
+      </div>
       <div class="box">
-        <div class="header d-flex justify-content-end small-text">
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Skills</a>
-          <a href="#">Contact me</a>
-        </div>
-        <div class="main-section row">
-          <div class="col-9">
-            <h1 class="beginning-text">
-              Ajudando empresas a construírem
-              <span class="pink-text">produtos digitais</span> de forma moderna
-              e de alta qualidade.
-            </h1>
-            <p class="sub-title">
-              Uma mistura de Design, Desenvolvimento Frontend e habilidade
-              profissional que vão destacar seu produto no mercado.
-            </p>
-            <a
-              href=""
-              target="_blank"
-              class="btn btn-primary info-button small-text"
-            >
-              Instagram
-            </a>
-          </div>
-        </div>
-        <div class="about-section row">
+        <div class="about-section row" id="nav-about">
           <div class="col-4">
             <img src="img/pink.png" alt="girl coding" width="100%" />
           </div>
@@ -62,15 +59,18 @@
               Frontend Developer based in Ukraine
             </h3>
             <p class="small-text about-paragraph">
-              Meu nome é Iuri Silva, ou “iuricode” (é como me chamam agora) sou
-              o criador do eFront, um material de ensino de frontend pela
-              internet. Atualmente sou freelancer como Front-end developer e UI
-              Designer. Desenvolvo interfaces modernas e de alta qualidade,
-              concentrado em performance, animações, responsividade e SEO.
+              I specialize in HTML, CSS, and JavaScript, and have experience
+              working with frameworks such as React and Bootstrap. I'm also
+              familiar with version control systems like Git, and have an
+              understanding of responsive design and cross-browser
+              compatibility.
             </p>
             <ul class="list-unstyled">
               <li class="social-media">
-                <a href="" class="pink-text"
+                <a
+                  href="https://www.linkedin.com/in/kateryna-voitiuk-8632601a4/"
+                  class="pink-text"
+                  target="_blank"
                   ><i class="fa-brands fa-linkedin-in"></i
                 ></a>
               </li>
@@ -93,46 +93,56 @@
           </div>
         </div>
         <div class="project-section">
-          <p class="project-header">Projects<span class="pink-text">.</span></p>
+          <p class="project-header" id="nav-projects">
+            Projects<span class="pink-text">.</span>
+          </p>
           <div class="d-flex justify-content-around">
             <div class="border border-primary">
               <div class="project-description">
                 <p class="app-header">Weather app</p>
                 <p class="project-desc small-text thiner">
-                  fgh fghhh djxdxy fhcjfc hgff gggff fffgg gggg
+                  This project was built using HTML, CSS, and JavaScript. It's a
+                  responsive website for a local business, featuring a modern
+                  design and smooth animations.
                 </p>
                 <a class="small-text app-link text-primary" href=""
-                  >Learn more...</a
+                  >Click here to check</a
                 >
               </div>
             </div>
             <div class="border border-info">
               <div class="project-description">
-                <p class="app-header">Weather app</p>
+                <p class="app-header">Yogurt app</p>
                 <p class="project-desc small-text thiner">
-                  fgh fghhh djxdxy fhcjfc hgff gggff fffgg gggg
+                  I used Vue.js to build my personal portfolio website, which
+                  you're currently browsing! It features a clean and minimalist
+                  design, and is fully responsive.
                 </p>
                 <a class="small-text app-link text-info" href=""
-                  >Learn more...</a
+                  >Click here to check</a
                 >
               </div>
             </div>
 
             <div class="border border-light">
               <div class="project-description">
-                <p class="app-header">Weather app</p>
+                <p class="app-header">Yoga app</p>
                 <p class="project-desc small-text thiner">
-                  fgh fghhh djxdxy fhcjfc hgff gggff fffgg gggg
+                  For this project, I collaborated with a team to create a web
+                  application using React. The application allows users to
+                  manage tasks and stay organized.
                 </p>
                 <a class="small-text app-link text-light" href=""
-                  >Learn more...</a
+                  >Click here to check</a
                 >
               </div>
             </div>
           </div>
         </div>
         <div class="skills-section">
-          <p class="skills-header">Skills<span class="pink-text">.</span></p>
+          <p class="skills-header" id="nav-skills">
+            Skills<span class="pink-text">.</span>
+          </p>
           <ul class="list-unstyled d-flex justify-content-around">
             <li class="skill-item">
               <i class="fa-brands fa-html5"></i>
@@ -151,6 +161,25 @@
               <div class="small-text thiner skill-text">Bootstrap</div>
             </li>
           </ul>
+        </div>
+        <div class="row contact-section">
+          <div class="col-4">
+            <p class="pink-text" id="nav-contact">Contacts</p>
+          </div>
+          <div class="col-8 d-flex justify-content-around c-details">
+            <span
+              ><a class="c-details" href="malito:voitiuk.just.icloud@gmail.com"
+                >Emeil:
+                <span class="pink-text">{</span>voitiuk.just@gmail.com</a
+              ><span class="pink-text">}</span></span
+            >
+            <span
+              >Tel.: <span class="pink-text">{</span>+380990115510<span
+                class="pink-text"
+                >}</span
+              ></span
+            >
+          </div>
         </div>
       </div>
     </div>
