@@ -10,7 +10,7 @@
 .header a {
   text-decoration: none;
   display: block;
-  margin: 10px;
+  margin: 12px;
   color: white;
 }
 
@@ -19,26 +19,24 @@
 }
 
 .small-text {
-  font-size: 9px !important;
+  font-size: 12px;
 }
 
 .thiner {
-  ont-weight: 100;
+  font-weight: 100;
 }
 
 .col-9 {
-  margin-bottom: 100px;
+  padding: 200px 0px 250px 0px;
 }
 
-h1 {
-  font-size: 24px !important;
-  color: white !important;
-  margin-top: 100px !important;
+.beginning-text {
+  color: white;
 }
 
 .sub-title {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 16px;
   margin: 20px 0;
   font-weight: 100px;
 }
@@ -58,28 +56,25 @@ h1 {
 }
 
 .about-section .col-8 {
-  padding-top: 15px;
+  padding-top: 90px;
 }
 
-h2 {
-  font-size: 24px !important;
+.heading-h2 {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 15px;
 }
 
-h2 {
-  color: #ffffff !important;
-  line-height: 15px !important;
+.heading-h3 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  line-height: 20px;
 }
 
-h3 {
-  margin-bottom: 10px !important;
-  color: #ffffff !important;
-  line-height: 20px !important;
-}
-
-h4 {
-  font-weight: 100 !important;
-  line-height: 8px !important;
-  margin-top: 10px !important;
+.heading-h4 {
+  font-weight: 100;
+  line-height: 8px;
+  margin-top: 10px;
 }
 
 .about-paragraph {
@@ -93,30 +88,27 @@ h4 {
 .social-media {
   display: inline;
   padding: 0px 5px;
+  font-size: 14px;
 }
 
 .project-header {
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
   color: #ffffff;
-}
-
-.app-header {
-  color: #ffffff;
-  font-size: 12px;
-  padding-top: 15px;
-  margin-left: 15px;
+  padding-bottom: 30px;
 }
 
 .project-description {
   color: #ffffff;
-  margin: 0;
-  margin-left: 15px;
+  margin: 15px;
+}
+
+.app-header {
+  font-size: 16px;
 }
 
 .app-link {
   text-decoration: none;
-  margin-left: 15px;
 }
 
 .project-section .border {
@@ -134,8 +126,8 @@ h4 {
 .skills-header {
   text-align: center;
   color: #ffffff;
-  padding-top: 15px;
-  font-size: 18px;
+  padding: 15px 0px;
+  font-size: 24px;
 }
 
 .skill-item {
@@ -156,5 +148,63 @@ h4 {
 @media (max-width: 900px) {
   .box {
     margin: 0 100px;
+  }
+
+  .small-text {
+    font-size: 9px !important;
+  }
+
+  .beginning-text {
+    font-size: 24px;
+  }
+
+  .col-9 {
+    padding: 100px 0px;
+  }
+
+  .sub-title {
+    font-size: 12px;
+  }
+
+  .about-section .col-8 {
+    padding-top: 15px;
+  }
+
+  .heading-h2 {
+    font-size: 24px;
+  }
+
+  .heading-h3 {
+    margin-bottom: 10px;
+  }
+
+  .heading-h4 {
+    margin-top: 10px;
+  }
+
+  .social-media {
+    font-size: 12px;
+  }
+
+  .project-header {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+
+  .app-header {
+    font-size: 12px;
+  }
+
+  .project-section .border {
+    margin: 0 5px;
+  }
+
+  .project-section {
+    margin-bottom: 100px;
+  }
+
+  .skills-header {
+    padding-top: 15px;
+    font-size: 18px;
   }
 }
