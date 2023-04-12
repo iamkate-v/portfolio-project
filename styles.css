@@ -42,6 +42,10 @@
   color: #ff3a5e;
 }
 
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
 .beginning-text {
   color: white;
 }
