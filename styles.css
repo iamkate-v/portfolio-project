@@ -24,7 +24,6 @@
 }
 .passive-link:hover {
   opacity: 100%;
-  text-decoration: underline;
 }
 .pink-text {
   color: #ff3a5e !important;
@@ -68,6 +67,7 @@
 .info-button {
   background-color: #ff3a5e !important;
   border-color: #ff3a5e !important;
+  border-radius: 15px !important;
 }
 .info-button-two {
   background-color: #ff3a5e !important;
@@ -99,7 +99,20 @@
   color: #ffffff;
   line-height: 20px;
 }
-
+.heading-about-h1 {
+  font-size: 48px;
+  color: #ffffff;
+}
+.heading-about-h2 {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 5px;
+  margin-right: 42%;
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: #ff3a5e;
+  margin-bottom: 30px;
+}
 .heading-h4 {
   font-weight: 100;
   line-height: 8px;
@@ -138,6 +151,9 @@
 
 .app-link {
   text-decoration: none;
+  color: #ffffff !important;
+  font-size: 11px !important;
+  border-radius: 15px !important;
 }
 
 .project-section .border {
@@ -165,6 +181,7 @@
   display: inline;
   padding: 0px 5px;
   font-size: 24px;
+  text-align: center;
 }
 
 .skill-text {
@@ -174,6 +191,7 @@
 
 .skills-section li {
   color: #ff3a5e;
+  text-align: center;
 }
 
 .contact-section {
@@ -188,6 +206,17 @@
 
 .photo {
   text-align: center;
+}
+.one-hover:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.vertical {
+  padding: 20% 0;
+}
+.main-about-section {
+  margin: 100px 0 !important;
 }
 
 @media (max-width: 900px) {
