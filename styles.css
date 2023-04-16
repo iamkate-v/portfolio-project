@@ -19,6 +19,18 @@
   margin: 12px;
   color: white;
 }
+.nav-projects {
+  padding: 0 2px;
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: #ff3a5e;
+}
+.nav-projects-blue {
+  padding: 0 2px;
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: #0dcaf0;
+}
 .passive-link {
   opacity: 50%;
 }
@@ -48,7 +60,12 @@
 
 .main-section .col {
   font-size: 426px;
-  color: #ff3a5e;
+  background: linear-gradient(1deg, #040405, #ff3a5e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .row {
@@ -241,6 +258,11 @@
 }
 .contact-page {
   padding-bottom: 250px;
+}
+.contact-page-p {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 30px 0;
 }
 @media (max-width: 900px) {
   .small-text {
