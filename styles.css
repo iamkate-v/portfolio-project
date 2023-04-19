@@ -58,6 +58,11 @@
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+.footer {
+  color: #040405;
+  text-align: right;
+}
+
 /* main section - home page */
 .col-7 {
   padding: 250px 0px;
@@ -233,6 +238,9 @@
 .main-about-section {
   margin-top: 100px !important;
 }
+.main-about-section-photo {
+  margin-top: 100px !important;
+}
 .info-button-two {
   background-color: #ff3a5e !important;
   border-color: #ff3a5e !important;
@@ -267,7 +275,13 @@
   font-size: 18px;
   padding: 30px 0;
 }
-
+.contact-page-a {
+  text-decoration-color: #ff3a5e;
+  color: #ffffff;
+}
+.contact-page-bottom {
+  margin-bottom: 20%;
+}
 @media (max-width: 900px) {
   .small-text {
     font-size: 9px !important;
@@ -333,5 +347,11 @@
   .heading-about-h2 {
     font-size: 12px;
     margin-right: 20%;
+  }
+  .main-about-section-photo {
+    margin-top: 0px !important;
+  }
+  .contact-page-bottom {
+    margin-bottom: 60%;
   }
 }
