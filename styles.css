@@ -52,6 +52,7 @@
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  transition: 0.25s ease-in-out;
 }
 
 /* main section - home page */
